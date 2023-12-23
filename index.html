@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer> </script>
+</head>
+
+<body>
+    <div id="container">
+        <h1> Etch-a-Sketch </h1>
+        <div class="box">
+            <div id="controls">
+                <div class="gridsetter">
+                    <p> Pixels  </p>
+                    <input id = 'pixelselector'class = 'input' type="text" placeholder="Type Resolution 1-100">
+                    <p> Bg Color  </p>
+                    <input id = 'bgselector' class = 'input' type="text" placeholder="Type BG color">
+                    <button id="setter"> Select </button>  
+                </div>
+                <div id = 'pen' class="colorsetter"> 
+                    <p> Pen Color  </p>
+                    <input id = 'penselector' class = 'input' type="text" placeholder="Type Color">
+                    <button id="penSelect"> Select </button>
+                </div>
+                <div class="rainbow"> 
+                    <p> Rainbow </p>
+                    <button id="rainbowOn"> Select </button>
+                </div>
+                <div class="darkner"> 
+                    <p> Darkner  </p>
+                    <button id="darknerOn"> Select </button>
+                </div>
+                <div class="eraser"> 
+                    <p> Eraser   </p> 
+                    <button id="eraserOn"> Select </button>
+                </div>
+            </div>
+            <div id="grids">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer"> 
+        <p> <a href = 'http://github.com/VikasMaurya07'> @Vikas Maurya </a> in collaboration with The Odin Project</p>
+    </div>
+</body>
+
+</html>

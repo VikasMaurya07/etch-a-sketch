@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+h1 {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 45px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+    justify-content: center;
+}
+#controls {
+    background-color: rgb(79, 205, 224);
+    font-size: larger;
+    color: black;
+    width: 180px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    justify-content: center;
+    font-weight: bold ;
+}
+.input {
+    width: 155px;
+    height: 6px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    border: #0f62fe solid;
+}
+.input:focus{
+    outline: none;
+    border-color: #023a7b;
+}
+button {
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #0f62fe;
+    border: none;
+    color:#ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #4380f0;
+}
+button:focus {
+    background-color: #1d345e
+}
+#grids{
+    display: flex;
+    background-color: aliceblue;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+.gridsetter{
+    margin-top: 0;
+}
+.rainbow, .darkner, .eraser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    justify-self: end;
+    margin: 0px;
+    background-color: #c8ccd1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    height: 30px;
+    width: auto;
+
+}
+.footer p {
+    color: rgb(27, 26, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(88, 121, 184);
+}
